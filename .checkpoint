@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "slug": "storybook-vs-playwright-component-testing",
+  "step": "created",
+  "completed_specs": [],
+  "pending_specs": ["storybook-ct-button", "playwright-ct-button", "visual-regression-compare"],
+  "created_at": "2026-04-13T00:00:00Z",
+  "updated_at": "2026-04-13T00:00:00Z"
+}
