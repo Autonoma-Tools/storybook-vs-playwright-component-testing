@@ -1,0 +1,30 @@
+{
+  "name": "storybook-vs-playwright-component-testing",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "test:storybook": "vitest --project=storybook",
+    "test:playwright-ct": "playwright test -c playwright-ct.config.ts"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@playwright/experimental-ct-react": "^1.48.0",
+    "@playwright/test": "^1.48.0",
+    "@storybook/addon-a11y": "^9.0.0",
+    "@storybook/experimental-addon-test": "^9.0.0",
+    "@storybook/react-vite": "^9.0.0",
+    "@storybook/test": "^9.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "@vitest/browser": "^2.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.0.0"
+  }
+}
